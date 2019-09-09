@@ -1,0 +1,3958 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0321.1733                               -->
+<workbook original-version='18.1' source-build='2019.1.2 (20191.19.0321.1733)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='gps_Game1_Player4' inline='true' name='federated.1x2ernw0jxac5n11o6d3z1lq57pm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='gps_Game1_Player4' name='textscan.1hnflsr10gpi4m1gadjb908hd2gq'>
+            <connection class='textscan' directory='G:/My Drive/DataFest 2019/MT/MT R' filename='gps_Game1_Player4.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1hnflsr10gpi4m1gadjb908hd2gq' name='gps_Game1_Player4.csv' table='[gps_Game1_Player4#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='GameID' ordinal='1' />
+            <column datatype='integer' name='Half' ordinal='2' />
+            <column datatype='integer' name='PlayerID' ordinal='3' />
+            <column datatype='integer' name='FrameID' ordinal='4' />
+            <column datatype='datetime' name='Time' ordinal='5' />
+            <column datatype='datetime' name='GameClock' ordinal='6' />
+            <column datatype='real' name='Speed' ordinal='7' />
+            <column datatype='real' name='AccelImpulse' ordinal='8' />
+            <column datatype='real' name='AccelLoad' ordinal='9' />
+            <column datatype='real' name='AccelX' ordinal='10' />
+            <column datatype='real' name='AccelY' ordinal='11' />
+            <column datatype='real' name='AccelZ' ordinal='12' />
+            <column datatype='real' name='Longitude' ordinal='13' />
+            <column datatype='real' name='Latitude' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GameID]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>GameID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>Half</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlayerID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PlayerID]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>PlayerID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FrameID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FrameID]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>FrameID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameClock</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[GameClock]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>GameClock</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Speed]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>Speed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelImpulse</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelImpulse]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>AccelImpulse</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelLoad</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelLoad]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>AccelLoad</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelX</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelX]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>AccelX</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelY]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>AccelY</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelZ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelZ]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>AccelZ</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[gps_Game1_Player4.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Accel Impulse' datatype='real' name='[AccelImpulse]' role='measure' type='quantitative' />
+      <column caption='Accel Load' datatype='real' name='[AccelLoad]' role='measure' type='quantitative' />
+      <column caption='Accel X' datatype='real' name='[AccelX]' role='measure' type='quantitative' />
+      <column caption='Accel Y' datatype='real' name='[AccelY]' role='measure' type='quantitative' />
+      <column caption='Accel Z' datatype='real' name='[AccelZ]' role='measure' type='quantitative' />
+      <column caption='No_Speed' datatype='integer' name='[Calculation_1273392839886323712]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='IF [Speed]==0 THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+      </column>
+      <column caption='Distance' datatype='real' name='[Calculation_1273392839887405057]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Speed]*0.1' />
+      </column>
+      <column caption='Frame ID' datatype='integer' name='[FrameID]' role='dimension' type='ordinal' />
+      <column caption='Game Clock' datatype='datetime' name='[GameClock]' role='dimension' type='ordinal' />
+      <column caption='Game ID' datatype='integer' name='[GameID]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Player ID' datatype='integer' name='[PlayerID]' role='dimension' type='ordinal' />
+      <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+      <column-instance column='[Time]' derivation='Minute' name='[mi:Time:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_1273392839886323712]' derivation='None' name='[none:Calculation_1273392839886323712:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.450549' measure-ordering='alphabetic' measure-percentage='0.549451' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1273392839886323712:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[mi:Time:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>35</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>41</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>24</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gps_Game1_Player4' name='federated.1x2ernw0jxac5n11o6d3z1lq57pm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x2ernw0jxac5n11o6d3z1lq57pm'>
+            <column caption='Game Clock' datatype='datetime' name='[GameClock]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Speed]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column-instance column='[Speed]' derivation='Sum' name='[sum:Speed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GameClock]' derivation='Second-Trunc' name='[tsc:GameClock:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Time]' derivation='Second-Trunc' name='[tsc:Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</rows>
+        <cols>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</cols>
+      </table>
+      <simple-id uuid='{77875BD4-BEF9-46EC-A187-F75383423319}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gps_Game1_Player4' name='federated.1x2ernw0jxac5n11o6d3z1lq57pm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1x2ernw0jxac5n11o6d3z1lq57pm'>
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[none:Latitude:qk]</rows>
+        <cols>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[none:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{037BA6FC-11C0-4AAE-8DE6-7FC096D54D79}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>12.419454379999999</value>
+                <value>#1900-01-01 00:03:38#</value>
+                <value>#1900-01-01 00:25:39#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>11.247231220000002</value>
+                <value>#1900-01-01 00:03:37#</value>
+                <value>#1900-01-01 00:25:38#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.87778088</value>
+                <value>#1900-01-01 00:03:36#</value>
+                <value>#1900-01-01 00:25:37#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.5944481200000009</value>
+                <value>#1900-01-01 00:03:35#</value>
+                <value>#1900-01-01 00:25:36#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>7.4777837599999994</value>
+                <value>#1900-01-01 00:03:34#</value>
+                <value>#1900-01-01 00:25:35#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>9.4888964799999993</value>
+                <value>#1900-01-01 00:03:33#</value>
+                <value>#1900-01-01 00:25:34#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.04722706</value>
+                <value>#1900-01-01 00:03:32#</value>
+                <value>#1900-01-01 00:25:33#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.3694495400000006</value>
+                <value>#1900-01-01 00:03:31#</value>
+                <value>#1900-01-01 00:25:32#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.7444490400000001</value>
+                <value>#1900-01-01 00:03:30#</value>
+                <value>#1900-01-01 00:25:31#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.9027801000000002</value>
+                <value>#1900-01-01 00:03:29#</value>
+                <value>#1900-01-01 00:25:30#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.7805593800000006</value>
+                <value>#1900-01-01 00:03:28#</value>
+                <value>#1900-01-01 00:25:29#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.7750038200000002</value>
+                <value>#1900-01-01 00:03:27#</value>
+                <value>#1900-01-01 00:25:28#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.7250037799999998</value>
+                <value>#1900-01-01 00:03:26#</value>
+                <value>#1900-01-01 00:25:27#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.6250013000000001</value>
+                <value>#1900-01-01 00:03:25#</value>
+                <value>#1900-01-01 00:25:26#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.2777803999999993</value>
+                <value>#1900-01-01 00:03:24#</value>
+                <value>#1900-01-01 00:25:25#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8.23056214</value>
+                <value>#1900-01-01 00:03:23#</value>
+                <value>#1900-01-01 00:25:24#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.85279046</value>
+                <value>#1900-01-01 00:03:22#</value>
+                <value>#1900-01-01 00:25:23#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>24.575019659999999</value>
+                <value>#1900-01-01 00:03:21#</value>
+                <value>#1900-01-01 00:25:22#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>29.936135059999994</value>
+                <value>#1900-01-01 00:03:20#</value>
+                <value>#1900-01-01 00:25:21#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.11668916</value>
+                <value>#1900-01-01 00:03:19#</value>
+                <value>#1900-01-01 00:25:20#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>23.419463180000001</value>
+                <value>#1900-01-01 00:03:18#</value>
+                <value>#1900-01-01 00:25:19#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>11.622231519999998</value>
+                <value>#1900-01-01 00:03:17#</value>
+                <value>#1900-01-01 00:25:18#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.5750028599999997</value>
+                <value>#1900-01-01 00:03:16#</value>
+                <value>#1900-01-01 00:25:17#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.2111128799999999</value>
+                <value>#1900-01-01 00:03:15#</value>
+                <value>#1900-01-01 00:25:16#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>36.172251160000002</value>
+                <value>#1900-01-01 00:03:14#</value>
+                <value>#1900-01-01 00:25:15#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>49.797262059999994</value>
+                <value>#1900-01-01 00:03:13#</value>
+                <value>#1900-01-01 00:25:14#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>49.355595039999997</value>
+                <value>#1900-01-01 00:03:12#</value>
+                <value>#1900-01-01 00:25:13#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>51.127818680000004</value>
+                <value>#1900-01-01 00:03:11#</value>
+                <value>#1900-01-01 00:25:12#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>51.647263539999997</value>
+                <value>#1900-01-01 00:03:10#</value>
+                <value>#1900-01-01 00:25:11#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>45.280591779999995</value>
+                <value>#1900-01-01 00:03:09#</value>
+                <value>#1900-01-01 00:25:10#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>38.002808180000002</value>
+                <value>#1900-01-01 00:03:08#</value>
+                <value>#1900-01-01 00:25:09#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.177800320000003</value>
+                <value>#1900-01-01 00:03:07#</value>
+                <value>#1900-01-01 00:25:08#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>17.958347699999997</value>
+                <value>#1900-01-01 00:03:06#</value>
+                <value>#1900-01-01 00:25:07#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>11.252786780000001</value>
+                <value>#1900-01-01 00:03:05#</value>
+                <value>#1900-01-01 00:25:06#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8.0916731399999975</value>
+                <value>#1900-01-01 00:03:04#</value>
+                <value>#1900-01-01 00:25:05#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>9.1000072799999998</value>
+                <value>#1900-01-01 00:03:03#</value>
+                <value>#1900-01-01 00:25:04#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>18.3194591</value>
+                <value>#1900-01-01 00:03:02#</value>
+                <value>#1900-01-01 00:25:03#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>24.886131019999997</value>
+                <value>#1900-01-01 00:03:01#</value>
+                <value>#1900-01-01 00:25:02#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.222244800000002</value>
+                <value>#1900-01-01 00:03:00#</value>
+                <value>#1900-01-01 00:25:01#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.96113428</value>
+                <value>#1900-01-01 00:02:59#</value>
+                <value>#1900-01-01 00:25:00#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>30.600024480000002</value>
+                <value>#1900-01-01 00:02:58#</value>
+                <value>#1900-01-01 00:24:59#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>32.194470199999998</value>
+                <value>#1900-01-01 00:02:57#</value>
+                <value>#1900-01-01 00:24:58#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>27.983355719999995</value>
+                <value>#1900-01-01 00:02:56#</value>
+                <value>#1900-01-01 00:24:57#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>23.308351980000001</value>
+                <value>#1900-01-01 00:02:55#</value>
+                <value>#1900-01-01 00:24:56#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>19.130570859999999</value>
+                <value>#1900-01-01 00:02:54#</value>
+                <value>#1900-01-01 00:24:55#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>10.077785840000001</value>
+                <value>#1900-01-01 00:02:53#</value>
+                <value>#1900-01-01 00:24:54#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.20555652</value>
+                <value>#1900-01-01 00:02:52#</value>
+                <value>#1900-01-01 00:24:53#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.72222279999999994</value>
+                <value>#1900-01-01 00:02:51#</value>
+                <value>#1900-01-01 00:24:52#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:50#</value>
+                <value>#1900-01-01 00:24:51#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.2638906999999997</value>
+                <value>#1900-01-01 00:02:49#</value>
+                <value>#1900-01-01 00:24:50#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.1666676</value>
+                <value>#1900-01-01 00:02:48#</value>
+                <value>#1900-01-01 00:24:49#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.5138933000000012</value>
+                <value>#1900-01-01 00:02:47#</value>
+                <value>#1900-01-01 00:24:48#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>10.5277862</value>
+                <value>#1900-01-01 00:02:46#</value>
+                <value>#1900-01-01 00:24:47#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>17.483347319999996</value>
+                <value>#1900-01-01 00:02:45#</value>
+                <value>#1900-01-01 00:24:46#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.01945566</value>
+                <value>#1900-01-01 00:02:44#</value>
+                <value>#1900-01-01 00:24:45#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16.552791020000001</value>
+                <value>#1900-01-01 00:02:43#</value>
+                <value>#1900-01-01 00:24:44#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>29.269467859999999</value>
+                <value>#1900-01-01 00:02:42#</value>
+                <value>#1900-01-01 00:24:43#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>9.5916743400000009</value>
+                <value>#1900-01-01 00:02:41#</value>
+                <value>#1900-01-01 00:24:42#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8.6472291400000003</value>
+                <value>#1900-01-01 00:02:40#</value>
+                <value>#1900-01-01 00:24:41#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>12.513898900000001</value>
+                <value>#1900-01-01 00:02:39#</value>
+                <value>#1900-01-01 00:24:40#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8.1194509400000001</value>
+                <value>#1900-01-01 00:02:38#</value>
+                <value>#1900-01-01 00:24:39#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16.291679700000003</value>
+                <value>#1900-01-01 00:02:37#</value>
+                <value>#1900-01-01 00:24:38#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.49167826</value>
+                <value>#1900-01-01 00:02:36#</value>
+                <value>#1900-01-01 00:24:37#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16.00834614</value>
+                <value>#1900-01-01 00:02:35#</value>
+                <value>#1900-01-01 00:24:36#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13.352788459999998</value>
+                <value>#1900-01-01 00:02:34#</value>
+                <value>#1900-01-01 00:24:35#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.39444956</value>
+                <value>#1900-01-01 00:02:33#</value>
+                <value>#1900-01-01 00:24:34#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.4333360800000001</value>
+                <value>#1900-01-01 00:02:32#</value>
+                <value>#1900-01-01 00:24:33#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.0750008600000001</value>
+                <value>#1900-01-01 00:02:31#</value>
+                <value>#1900-01-01 00:24:32#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.3833352400000001</value>
+                <value>#1900-01-01 00:02:30#</value>
+                <value>#1900-01-01 00:24:31#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.69722358</value>
+                <value>#1900-01-01 00:02:29#</value>
+                <value>#1900-01-01 00:24:30#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:28#</value>
+                <value>#1900-01-01 00:24:29#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.3333360000000001</value>
+                <value>#1900-01-01 00:02:27#</value>
+                <value>#1900-01-01 00:24:28#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:26#</value>
+                <value>#1900-01-01 00:24:27#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:25#</value>
+                <value>#1900-01-01 00:24:26#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.31666692000000002</value>
+                <value>#1900-01-01 00:02:24#</value>
+                <value>#1900-01-01 00:24:25#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:23#</value>
+                <value>#1900-01-01 00:24:24#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.6888910400000001</value>
+                <value>#1900-01-01 00:02:22#</value>
+                <value>#1900-01-01 00:24:23#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.6944482000000001</value>
+                <value>#1900-01-01 00:02:21#</value>
+                <value>#1900-01-01 00:24:22#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.2166692400000003</value>
+                <value>#1900-01-01 00:02:20#</value>
+                <value>#1900-01-01 00:24:21#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.4694456199999999</value>
+                <value>#1900-01-01 00:02:19#</value>
+                <value>#1900-01-01 00:24:20#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.0250048199999995</value>
+                <value>#1900-01-01 00:02:18#</value>
+                <value>#1900-01-01 00:24:19#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.3444487200000008</value>
+                <value>#1900-01-01 00:02:17#</value>
+                <value>#1900-01-01 00:24:18#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.3361153800000007</value>
+                <value>#1900-01-01 00:02:16#</value>
+                <value>#1900-01-01 00:24:17#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.3916701800000002</value>
+                <value>#1900-01-01 00:02:15#</value>
+                <value>#1900-01-01 00:24:16#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1.0194452600000001</value>
+                <value>#1900-01-01 00:02:14#</value>
+                <value>#1900-01-01 00:24:15#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:13#</value>
+                <value>#1900-01-01 00:24:14#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.53888932</value>
+                <value>#1900-01-01 00:02:12#</value>
+                <value>#1900-01-01 00:24:13#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.30277801999999998</value>
+                <value>#1900-01-01 00:02:11#</value>
+                <value>#1900-01-01 00:24:12#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.98333411999999987</value>
+                <value>#1900-01-01 00:02:10#</value>
+                <value>#1900-01-01 00:24:11#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.33333360000000001</value>
+                <value>#1900-01-01 00:02:09#</value>
+                <value>#1900-01-01 00:24:10#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.2305573399999998</value>
+                <value>#1900-01-01 00:02:08#</value>
+                <value>#1900-01-01 00:24:09#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.31388914000000001</value>
+                <value>#1900-01-01 00:02:07#</value>
+                <value>#1900-01-01 00:24:08#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:06#</value>
+                <value>#1900-01-01 00:24:07#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:05#</value>
+                <value>#1900-01-01 00:24:06#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:04#</value>
+                <value>#1900-01-01 00:24:05#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:03#</value>
+                <value>#1900-01-01 00:24:04#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:02#</value>
+                <value>#1900-01-01 00:24:03#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.0</value>
+                <value>#1900-01-01 00:02:01#</value>
+                <value>#1900-01-01 00:24:02#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.8500022800000004</value>
+                <value>#1900-01-01 00:02:00#</value>
+                <value>#1900-01-01 00:24:01#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.6222227199999999</value>
+                <value>#1900-01-01 00:01:59#</value>
+                <value>#1900-01-01 00:24:00#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2.6027798599999996</value>
+                <value>#1900-01-01 00:01:58#</value>
+                <value>#1900-01-01 00:23:59#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.2805581799999999</value>
+                <value>#1900-01-01 00:01:57#</value>
+                <value>#1900-01-01 00:23:58#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.8861142200000005</value>
+                <value>#1900-01-01 00:01:56#</value>
+                <value>#1900-01-01 00:23:57#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.4833385200000002</value>
+                <value>#1900-01-01 00:01:55#</value>
+                <value>#1900-01-01 00:23:56#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8.5888957600000015</value>
+                <value>#1900-01-01 00:01:54#</value>
+                <value>#1900-01-01 00:23:55#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>10.647230740000001</value>
+                <value>#1900-01-01 00:01:53#</value>
+                <value>#1900-01-01 00:23:54#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>11.74445384</value>
+                <value>#1900-01-01 00:01:52#</value>
+                <value>#1900-01-01 00:23:53#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>12.08612078</value>
+                <value>#1900-01-01 00:01:51#</value>
+                <value>#1900-01-01 00:23:52#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13.211121679999998</value>
+                <value>#1900-01-01 00:01:50#</value>
+                <value>#1900-01-01 00:23:51#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13.52501082</value>
+                <value>#1900-01-01 00:01:49#</value>
+                <value>#1900-01-01 00:23:50#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.0833446</value>
+                <value>#1900-01-01 00:01:48#</value>
+                <value>#1900-01-01 00:23:49#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.555567200000002</value>
+                <value>#1900-01-01 00:01:47#</value>
+                <value>#1900-01-01 00:23:48#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.769456260000002</value>
+                <value>#1900-01-01 00:01:46#</value>
+                <value>#1900-01-01 00:23:47#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.03890092</value>
+                <value>#1900-01-01 00:01:45#</value>
+                <value>#1900-01-01 00:23:46#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.005567560000001</value>
+                <value>#1900-01-01 00:01:44#</value>
+                <value>#1900-01-01 00:23:45#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14.541678300000001</value>
+                <value>#1900-01-01 00:01:43#</value>
+                <value>#1900-01-01 00:23:44#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.775012619999998</value>
+                <value>#1900-01-01 00:01:42#</value>
+                <value>#1900-01-01 00:23:43#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.830568219999998</value>
+                <value>#1900-01-01 00:01:41#</value>
+                <value>#1900-01-01 00:23:42#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15.872234920000002</value>
+                <value>#1900-01-01 00:01:40#</value>
+                <value>#1900-01-01 00:23:41#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>21.558350580000003</value>
+                <value>#1900-01-01 00:01:39#</value>
+                <value>#1900-01-01 00:23:40#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>20.88335004</value>
+                <value>#1900-01-01 00:01:38#</value>
+                <value>#1900-01-01 00:23:39#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>19.875015900000001</value>
+                <value>#1900-01-01 00:01:37#</value>
+                <value>#1900-01-01 00:23:38#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>19.669460180000002</value>
+                <value>#1900-01-01 00:01:36#</value>
+                <value>#1900-01-01 00:23:37#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>21.961128680000002</value>
+                <value>#1900-01-01 00:01:35#</value>
+                <value>#1900-01-01 00:23:36#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>20.28612734</value>
+                <value>#1900-01-01 00:01:34#</value>
+                <value>#1900-01-01 00:23:35#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>17.26945826</value>
+                <value>#1900-01-01 00:01:33#</value>
+                <value>#1900-01-01 00:23:34#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>12.3888988</value>
+                <value>#1900-01-01 00:01:32#</value>
+                <value>#1900-01-01 00:23:33#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>19.505571159999999</value>
+                <value>#1900-01-01 00:01:31#</value>
+                <value>#1900-01-01 00:23:32#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>29.083356600000002</value>
+                <value>#1900-01-01 00:01:30#</value>
+                <value>#1900-01-01 00:23:31#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>30.222246400000003</value>
+                <value>#1900-01-01 00:01:29#</value>
+                <value>#1900-01-01 00:23:30#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>22.4166846</value>
+                <value>#1900-01-01 00:01:28#</value>
+                <value>#1900-01-01 00:23:29#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>11.272231240000002</value>
+                <value>#1900-01-01 00:01:27#</value>
+                <value>#1900-01-01 00:23:28#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>7.5583393800000005</value>
+                <value>#1900-01-01 00:01:26#</value>
+                <value>#1900-01-01 00:23:27#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4.6722259599999996</value>
+                <value>#1900-01-01 00:01:25#</value>
+                <value>#1900-01-01 00:23:26#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.1388929999999995</value>
+                <value>#1900-01-01 00:01:24#</value>
+                <value>#1900-01-01 00:23:25#</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Speed:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+                  <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.9638936600000001</value>
+                <value>#1900-01-01 00:01:23#</value>
+                <value>#1900-01-01 00:23:24#</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[hr:GameClock:ok]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[hr:Time:ok]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:GameClock:qk]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[tsc:Time:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5279503E-DB8C-4746-AE6D-F6056690B27F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[:Measure Names]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[hr:GameClock:ok]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[mi:Time:ok]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[none:FrameID:ok]</field>
+            <field>[federated.1x2ernw0jxac5n11o6d3z1lq57pm].[sum:Calculation_1273392839886323712:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7E73BDF6-2356-4367-B221-9C0B230F86D1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      bq0AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
